@@ -6,10 +6,23 @@ use Illuminate\Http\Request;
 
 class DaiController extends Controller
 {
-    public function index(){
+    public function index()
+    {
+
+        $name = 'dai..................';
+        echo $name;
+
+        $age =0;
+        echo $age;
 
 
-    return view('DaiView');
+        if ($age >= 18) {
+            echo "Người lớn";
+        } else {
+            echo "Trẻ con";
+        }
+
+        return view('DaiView');
     }
-    
+
 }
