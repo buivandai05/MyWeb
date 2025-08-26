@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #9D22FE;
+    --color-two: #FF2B90;
+    --color-text: #1e1e1e;
+    --color-content:#777777;
+    --font:"Inria Serif", serif;
+
+}
+body{
+    color:var(--color-text);
+    list-style:1.6;
+    font-family: var(--font);
+}
+.section-one .button-one{
+    padding:14px 20px;
+    background-color:var(--color-two);
+    border-radius: 30px;
+    border: 1px solid var(--color-two);
+    color: white;
+    text-decoration: none;
+
+}
+.section-one .button-one:hover{
+    background-color: var(--color-one);
+    border: 1px solid var(--color-one);
+
+}
+.section-two{
+    background-color: white;
+    padding: 100px 0;
+}
+.section-two .inner-box .inner-icon:hover{
+    background-color: var(--color-two);
+    border: 1px solid var(--color-two);
+}
