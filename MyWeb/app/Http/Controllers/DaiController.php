@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 class DaiController extends Controller
 {
     public function index(){
-        
-    return ('DaiView');
+
+
+    return view('DaiView');
     }
     
 }
